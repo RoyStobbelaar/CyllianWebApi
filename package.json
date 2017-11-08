@@ -1,0 +1,27 @@
+{
+  "name": "cyllianapi",
+  "version": "1.0.0",
+  "description": "API for CyllianWeb",
+  "main": "index.js",
+  "scripts": {
+    "test": "stokbrood",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "cyllian",
+    "legends",
+    "web",
+    "stokbrood"
+  ],
+  "author": "Kazura",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.1"
+  }
+}
